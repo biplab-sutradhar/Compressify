@@ -146,7 +146,7 @@ const CondenseVideo = () => {
         ) : (
           <CustomDropZone
             handleUpload={handleUpload}
-            acceptedFiles={acceptedVideoFiles}
+            acceptedFiles={{ video: videoFormats }}
           />
         )}
       </motion.div>
